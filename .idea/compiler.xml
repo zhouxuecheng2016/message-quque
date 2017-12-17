@@ -10,9 +10,9 @@
         <module name="mq-vms" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mq-common" target="1.5" />
-      <module name="mq-vms" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="mq-common" target="1.8" />
+      <module name="mq-vms" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

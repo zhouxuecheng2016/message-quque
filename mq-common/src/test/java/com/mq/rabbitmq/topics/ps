@@ -1,0 +1,10 @@
+* (star) can substitute for exactly one word.
+# (hash) can substitute for zero or more words.
+
+A message with a routing key set to "quick.orange.rabbit" will be delivered to both queues.
+
+Topic exchange
+When a queue is bound with "#" (hash) binding key - it will receive all the messages, regardless of the routing key - like in fanout exchange.
+
+When special characters "*" (star) and "#" (hash) aren't used in bindings, the topic exchange will behave just like a direct one.
+
