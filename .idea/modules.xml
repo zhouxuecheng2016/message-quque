@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq-common/mq-common.iml" filepath="$PROJECT_DIR$/mq-common/mq-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-vms/mq-vms.iml" filepath="$PROJECT_DIR$/mq-vms/mq-vms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbit/spring-rabbit.iml" filepath="$PROJECT_DIR$/spring-rabbit/spring-rabbit.iml" />
     </modules>
   </component>
 </project>

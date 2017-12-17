@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mq-common" />
         <module name="mq-vms" />
+        <module name="spring-rabbit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="mq-common" target="1.8" />
-      <module name="mq-vms" target="1.8" />
+      <module name="mq-common" target="1.5" />
+      <module name="mq-vms" target="1.5" />
+      <module name="spring-rabbit" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

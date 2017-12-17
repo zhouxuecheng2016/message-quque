@@ -1,9 +1,6 @@
 package com.mq.rabbitmq.work;
 
-import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.MessageProperties;
+import com.rabbitmq.client.*;
 
 /**
  * Created by hadoop on 2017/12/16.
@@ -25,7 +22,7 @@ public class NewTask {
         channel.queueDeclare(TASK_QUEUE_NAME, true, false, false, null);
 
         String message = getMessage(argv);
-
+        //AMQP.BasicProperties properties = new AMQP.BasicProperties();
         channel.basicPublish("", TASK_QUEUE_NAME,
                 MessageProperties.PERSISTENT_TEXT_PLAIN,
                 message.getBytes("UTF-8"));

@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mq-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq-vms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-rabbit" charset="UTF-8" />
   </component>
 </project>

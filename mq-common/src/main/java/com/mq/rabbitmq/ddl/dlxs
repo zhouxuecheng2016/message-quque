@@ -1,0 +1,9 @@
+Dead letter exchanges(DLXS)也是一个普通的exchange。
+
+channel.exchangeDeclare("some.exchange.name", "direct");
+Map<String, Object> args = new HashMap<String, Object>();
+args.put("x-dead-letter-exchange", "some.exchange.name");
+channel.queueDeclare("myqueue", false, false, false, args)
+
+
+

@@ -40,6 +40,10 @@ public class Worker {
                 System.out.println(" [x] Received '" + message + "'");
                 try {
                     doWork(message);
+                    //true if the rejected message should be requeued rather than
+                    //discarded/dead-lettered
+                    channel.basicReject(envelope.getDeliveryTag(),false);
+                    channel.basicNack(envelope.getDeliveryTag(),false,false);
                 } finally {
                     System.out.println(" [x] Done");
                     channel.basicAck(envelope.getDeliveryTag(), false);

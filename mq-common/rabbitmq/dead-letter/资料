@@ -3,3 +3,28 @@ http://blog.csdn.net/nongfuyumin/article/details/78813426
 http://blog.csdn.net/qq315737546/article/details/66475743
 http://www.mamicode.com/info-detail-398367.html
 https://www.cnblogs.com/wei-feng/p/6599419.html
+
+Messages from a queue can be 'dead-lettered';
+that is, republished to another exchange when any of the following events occur:
+(1)The message is rejected (basic.reject or basic.nack) with requeue=false,
+(2)The TTL for the message expires;
+(3)The queue length limit is exceeded.
+
+Dead letter exchanges (DLXs) are normal exchanges.
+They can be any of the usual types and are declared as usual.
+
+a DLX can be defined by clients using the queue's arguments,in the server using policies.
+
+ In the case where both policy and arguments specify a DLX, the one specified in arguments overrules the one specified in policy.
+
+1:Configuration using arguments
+To set the dead letter exchange for a queue, set the x-dead-letter-exchange argument to the name of the exchange:
+
+channel.exchangeDeclare("some.exchange.name", "direct");
+Map<String, Object> args = new HashMap<String, Object>();
+args.put("x-dead-letter-exchange", "some.exchange.name");
+channel.queueDeclare("myqueue", false, false, false, args);
+
+
+2:Configuration using policy
+
