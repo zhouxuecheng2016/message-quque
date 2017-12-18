@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/mq-vms/pom.xml" />
         <option value="$PROJECT_DIR$/mq-common/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-dead-letter/pom.xml" />
       </list>
     </option>
   </component>

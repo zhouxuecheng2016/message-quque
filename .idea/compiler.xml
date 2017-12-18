@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="example-rmq-deadletter" />
         <module name="mq-common" />
         <module name="mq-vms" />
         <module name="spring-rabbit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="example-rmq-deadletter" target="1.5" />
       <module name="mq-common" target="1.5" />
       <module name="mq-vms" target="1.5" />
       <module name="spring-rabbit" target="1.7" />

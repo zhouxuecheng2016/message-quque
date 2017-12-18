@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-dead-letter/example-rmq-deadletter.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-dead-letter/example-rmq-deadletter.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-common/mq-common.iml" filepath="$PROJECT_DIR$/mq-common/mq-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-vms/mq-vms.iml" filepath="$PROJECT_DIR$/mq-vms/mq-vms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq.iml" />
