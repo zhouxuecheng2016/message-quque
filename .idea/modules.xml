@@ -6,7 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/mq-common/mq-common.iml" filepath="$PROJECT_DIR$/mq-common/mq-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-vms/mq-vms.iml" filepath="$PROJECT_DIR$/mq-vms/mq-vms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-access/rabbitmq-access.iml" filepath="$PROJECT_DIR$/rabbitmq-access/rabbitmq-access.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rabbit/spring-rabbit.iml" filepath="$PROJECT_DIR$/spring-rabbit/spring-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vms/vms-java-client/vms.iml" filepath="$PROJECT_DIR$/vms/vms-java-client/vms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vms/vms-dove-server/vms-dove-server.iml" filepath="$PROJECT_DIR$/vms/vms-dove-server/vms-dove-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vms/integration-test/vms-it-test/vms-it-test.iml" filepath="$PROJECT_DIR$/vms/integration-test/vms-it-test/vms-it-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vms/vms-project.iml" filepath="$PROJECT_DIR$/vms/vms-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vms/vms-remoting/vms-remoting.iml" filepath="$PROJECT_DIR$/vms/vms-remoting/vms-remoting.iml" />
     </modules>
   </component>
 </project>
